@@ -508,8 +508,14 @@ footer{
 /* ============================================================
    RESPONSIVE
    ============================================================ */
-@media(max-width:560px){
-  .chapter-grid{ padding:16px 18px 22px; gap:16px; }
+@media(max-width:640px){
+  .chapter-grid{
+    grid-template-columns: 1fr;
+    grid-template-areas: "content" "code";
+    padding:16px 18px 22px;
+    gap:16px;
+  }
+  .chapter-grid > .story{ margin-bottom:4px; }
   header{ padding:76px 20px 44px; }
 }
 @media(max-width:480px){
