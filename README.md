@@ -1,2 +1,2 @@
 # C Book for Kids
-Bangla Illustrated Coding Storybook and Compiler
+Bangla Illustrated Coding Storybook and Compiler kids
